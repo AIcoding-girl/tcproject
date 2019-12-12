@@ -1,0 +1,57 @@
+/* ---------- Navbar ------------ */
+.navbar div {
+    box-shadow: 0 6px 20px 0;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.navbar-light .navbar-nav .nav-link.disabled {
+    color: darkgray;
+}
+/* ---------- Navbar ------------ */
+
+input {
+    display: inline-block;
+}
+body {
+    background-image: url(../img/field2.jpg);
+    background-size: cover;
+}
+
+.wrapper-about {
+    background-color: white;
+}
+
+/* -------Tabs style ------ */
+
+.nav-item a {
+    color: black;
+}
+
+.nav-tabs .nav-item .active {
+    color: white;
+    /* font-weight: bold; */
+    border-radius: 10px;
+    background-color: #2AB7AA;
+    border: 1px solid #2AB7AA;
+}
+.tab-content img {
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    float: left;
+}
+
+#address {
+    margin-top: 1rem;
+}
+.opening-times li {
+    list-style: none;
+}
+footer {
+    padding-top: 10px;
+    margin-top: 10px;
+    box-shadow: 0 6px 20px 0;
+}
+/*  ---------- Footer --------- */

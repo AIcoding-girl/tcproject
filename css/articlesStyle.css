@@ -1,0 +1,72 @@
+body {
+    background-image: url(../img/field2.jpg);
+    background-size: cover;
+}
+
+.gallery-wrapper {
+    margin-top: 5rem;
+}
+/* ---------- Navbar ------------ */
+.navbar div {
+    box-shadow: 0 6px 20px 0;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.navbar-light .navbar-nav .nav-link.disabled {
+    color: darkgray;
+}
+/* ---------- Navbar ------------ */
+
+.small-img img {
+    max-width: 100%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.gallery-active img {
+    max-width: 100%;
+    margin: 10px;
+}
+
+img:hover {
+    opacity: 0.7;
+    /* box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.19); */
+    cursor: pointer;
+}
+
+.tabs-header a {
+    padding-left: 50px;
+    font-size: 24px;
+    color: gray;
+    text-decoration: none;
+}
+
+.tabs-header a.active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.tabs-header:hover {
+    cursor: pointer;
+}
+.tab {
+    display: none;  /* to hide tab contents by default */
+}
+
+.tab.active {  /* for tab AND active classes */
+    display: block;
+}
+
+.col-head {
+    display: inline-block;
+}
+
+/* ---------- Footer --------- */
+footer {
+    padding-top: 10px;
+    box-shadow: 0 6px 20px 0;
+}
+/*  ---------- Footer --------- */

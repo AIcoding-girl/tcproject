@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tennis club</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/chatStyle.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <nav class="navbar fixed-top navbar-expand-md navbar-light gray-gradient scrolling-navbar">
+            <div class="collapse navbar-collapse" id="collapse_target">
+                <a class="navbar-brand pl-5">
+                    <!-- padding-left: 5($spacer) bootstrap -->
+                    <img src="img/cat-solid.svg" width="30" height="30" title="cat">
+                    <img src="img/table-tennis-solid.svg" width="30" height="30" title="tennis"></a>
+                <!-- <span class="navbar-text">Tennis Club</span> Navbar text -->
+
+                <ul class="navbar-nav flex-md-row ml-md-auto d-flex pr-5">
+                    <!-- navbar as column: flex-md-column -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="articles.html">Articles</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Chat</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">Register</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="navbar-toggler teal lighten-1" type="button" data-toggle="collapse"
+    data-target="#collapse_target" aria-controls="collapse_target" aria-expanded="false"
+    aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        </nav>
+        <!-- </div> -->
+
+        <!-- Chat -->
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="chat-wrapper">
+                    <h2>Chat with us</h2>
+                    <form>
+                        <div class="admin-info">
+                            <p>
+                                <div class="admin-username">Admin</div>
+                                <div class="admin-date"></div>
+                                <div class="admin-message col pl-0">Hello, how can I help you?</div>
+                            </p>
+                        </div>
+
+                        <div class="full-user-message">
+                            <p id="user-message-sent">
+                            </p>
+                        </div>
+
+                        <div class="user-message form-group">
+                            <label for="username-input">Username</label>
+                            <input type="text" class="form-control" id="username-input" aria-describedby="username">
+
+                            <label for="user-message">Message</label>
+                            <textarea class="form-control" id="user-message" rows="10" cols="30" required></textarea>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+
+    </div>
+    <!-- <div class="newMessageField row">
+                <textarea name="" id="new-message" cols="30" rows="10"></textarea>
+                <div id="usernameSent col"></div>
+                <div class="dateSent">Date</div>
+                <div class="chatText row">
+                    <p id="messageSent">Message sent</p>
+                </div>
+            </div> -->
+    <!-- Chat -->
+
+    <!-- Footer -->
+    <footer class="sticky-bottom">
+        <div class="row justify-content-center">
+
+            <a href="#"><img src="img/facebook.svg" width="30" height="30" alt="facebook icon"></a>
+            <a href="#"><img src="img/instagram.svg" width="30" height="30" alt="instagram icon"></a>
+            <a href="#"><img src="img/linkedin.svg" width="30" height="30" alt="linkedin icon"></a>
+            <a href="#"><img src="img/twitter.svg" width="30" height="30" alt="twitter icon"></a>
+            <a href="#"><img src="img/youtube.svg" width="30" height="30" alt="youtube icon"></a>
+        </div>
+
+        <div class="row justify-content-center">
+            &#169 by Tennis Club, 2019. All rights reserved
+        </div>
+    </footer>
+    <!-- Footer -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="js/chatScript.js"></script>
+</body>
+
+</html>

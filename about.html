@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tennis club</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/about.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar sticky-top navbar-expand-md navbar-light teal lighten-4 scrolling-navbar">
+            <div class="collapse navbar-collapse" id="collapse_target">
+                <a class="navbar-brand pl-5">
+                    <!-- padding-left: 5($spacer) bootstrap -->
+                    <img src="img/cat-solid.svg" width="30" height="30" title="cat">
+                    <img src="img/table-tennis-solid.svg" width="30" height="30" title="tennis"></a>
+                <!-- <span class="navbar-text">Tennis Club</span> Navbar text -->
+
+                <ul class="navbar-nav flex-md-row ml-md-auto d-flex pr-5">
+                    <!-- navbar as column: flex-md-column -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="articles.html">Articles</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="chat.html">Chat</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">Register</a>
+                    </li>
+
+                    <li class="nav-item pr-5">
+                        <a class="nav-link disabled" href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="navbar-toggler teal lighten-1" type="button" data-toggle="collapse"
+                data-target="#collapse_target" aria-controls="collapse_target" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        </nav>
+
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="wrapper-about mt-2 col-md-6">
+                <h2 class="pt-3 pb-3"><u>About us</u></h2>
+                <div class="row" id="tabs">
+                    <div class="col-md-4">
+                        <ul class="nav nav-tabs md-tabs flex-column" id="myTabMD" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="home-tab-md" data-toggle="tab" href="#home-md" role="tab"
+                                    aria-controls="home-md" aria-selected="true">Pets and cats friendly</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="profile-tab-md" data-toggle="tab" href="#profile-md" role="tab"
+                                    aria-controls="profile-md" aria-selected="false">Encouraging space</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="contact-tab-md" data-toggle="tab" href="#contact-md" role="tab"
+                                    aria-controls="contact-md" aria-selected="false">Highest goals</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content card pt-3 col-md-8" id="myTabContentMD">
+                        <div class="tab-pane fade show active" id="home-md" role="tabpanel"
+                            aria-labelledby="home-tab-md">
+                            <h2>Heading 1</h2>
+                            <img src="img/kittens-about.jpg" alt="three kittens">
+                            <p class="float">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id rerum
+                                perferendis, inventore
+                                sit itaque, eius voluptates eveniet modi cumque, suscipit et. Dicta assumenda,
+                                accusantium, animi ea suscipit accusamus nihil nisi alias perspiciatis quo facilis quas
+                                beatae consequatur ex voluptates modi fuga repellat sed! Soluta maxime voluptate
+                                consectetur nostrum, dolores placeat commodi vitae debitis molestias quae hic non modi!
+                                Excepturi, debitis minus quia deleniti corporis repudiandae? Odio voluptatibus incidunt
+                                earum fugiat porro beatae, repellendus cumque et illum doloremque amet magnam! Fuga!</p>
+                        </div>
+                        <div class="tab-pane fade" id="profile-md" role="tabpanel" aria-labelledby="profile-tab-md">
+                            <h2>Heading 2</h2>
+                            <img src="img/kittens-about2.jpg" alt="kitten">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione repellendus illo
+                                corporis sunt at ad. Quod fuga, voluptate consequatur laborum tenetur dicta eos iusto
+                                aliquid reprehenderit molestiae quos quo libero perspiciatis distinctio numquam placeat,
+                                eius error consectetur ea, iure labore tempore molestias! Neque quisquam sed quaerat
+                                fuga deserunt, minima rerum, autem minus ad iusto atque et amet deleniti reprehenderit
+                                mollitia eius quibusdam ipsum id sunt, aspernatur corporis blanditiis architecto
+                                officiis itaque. Ut optio perferendis facilis quaerat dignissimos, soluta reiciendis
+                                quasi.</p>
+                        </div>
+                        <div class="tab-pane fade" id="contact-md" role="tabpanel" aria-labelledby="contact-tab-md">
+                            <h2>Heading 3</h2>
+                            <img src="img/kittens-about3.jpg" alt="kitten lies">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos architecto sint expedita
+                                impedit repellat adipisci perferendis, modi cumque inventore ipsum. Eum eveniet
+                                repudiandae perferendis quidem necessitatibus iure provident saepe cum repellendus ipsam
+                                voluptates beatae, sed temporibus quae ipsum aperiam quibusdam quam at exercitationem
+                                distinctio qui architecto! Quae ipsam cumque voluptatum ratione laboriosam culpa, unde
+                                placeat odio nemo! Vitae autem hic enim maxime facere at, tempora in adipisci tenetur
+                                esse nesciunt officia praesentium expedita et labore cum dolor!
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row pt-3 pb-5">
+                    <div class="col-md-6 d-inline-block">
+                        <p>
+                            <h2><u>Contacts</u></h2>
+                        </p>
+                        <div class="mapouter">
+                            <div class="gmap_canvas"><iframe width="300" height="250" id="gmap_canvas"
+                                    src="https://maps.google.com/maps?q=tennis%20club%20netherlands&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                                    href="https://www.embedgooglemap.net"></a></div>
+                            <style>
+                                .mapouter {
+                                    position: relative;
+                                    text-align: right;
+                                    height: 250px;
+                                    width: 300px;
+                                }
+
+                                .gmap_canvas {
+                                    overflow: hidden;
+                                    background: none !important;
+                                    height: 250px;
+                                    width: 300px;
+                                }
+                            </style>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" id="address">
+                        <h5>Our address</h5>
+                        <address>Tennis Street 13, Tennisland, TC 3131</address>
+                        <h5>Opening times:</h5>
+                        <ul class="opening-times">
+                            <li>Monday: 12-20</li>
+                            <li>Tuesday: 10-20</li>
+                            <li>Wednesday: 10-20</li>
+                            <li>Thursday: 10-20</li>
+                            <li>Friday: 10-22</li>
+                            <li>Saturday: 10-22</li>
+                            <li>Sunday: 10-20</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+
+        <footer class="sticky-bottom">
+            <div class="row justify-content-center">
+
+                <a href="#"><img src="img/facebook.svg" width="30" height="30" alt="facebook icon"></a>
+                <a href="#"><img src="img/instagram.svg" width="30" height="30" alt="instagram icon"></a>
+                <a href="#"><img src="img/linkedin.svg" width="30" height="30" alt="linkedin icon"></a>
+                <a href="#"><img src="img/twitter.svg" width="30" height="30" alt="twitter icon"></a>
+                <a href="#"><img src="img/youtube.svg" width="30" height="30" alt="youtube icon"></a>
+            </div>
+
+            <div class="row justify-content-center">
+                &#169 by Tennis Club, 2019. All rights reserved
+            </div>
+        </footer>
+        <!-- Footer -->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

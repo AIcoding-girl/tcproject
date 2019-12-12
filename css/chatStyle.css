@@ -1,0 +1,49 @@
+
+body {
+    background-image: url(../img/field2.jpg);
+    background-size: cover;
+}
+
+.full-user-message {
+    height: 300px;
+    border-bottom: 1px solid gray;
+    overflow-y: scroll;
+}
+/* ---------- Navbar ------------ */
+.navbar div {
+    box-shadow: 0 6px 20px 0; /* rgba(0, 0, 0, 0.19); */
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.navbar-light .navbar-nav .nav-link.disabled {
+    color: darkgray;
+}
+/* ---------- Navbar ------------ */
+
+.chat-wrapper {
+    background-color: #ECEDEE;
+    margin-top: 5rem;
+    padding: 2rem;
+}
+
+.adminUsername, .adminDate {
+    display: inline-block;
+}
+
+.admin-date {
+    font-size: 10px;
+}
+
+.admin-info, .user-message-sent {
+    border-bottom: 1px solid gray;
+}
+
+footer {
+    padding-top: 10px;
+    margin-top: 10px;
+    box-shadow: 0 6px 20px 0;
+}
+/*  ---------- Footer --------- */

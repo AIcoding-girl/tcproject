@@ -1,0 +1,42 @@
+
+.row {
+    margin-right: 0;
+    margin-left:0;
+}
+
+.carousel-item {
+    max-width: 100%;  /* carousel width is element width */
+}
+
+/* ---------- Navbar ------------ */
+.navbar div {
+    box-shadow: 0 6px 20px 0; /* rgba(0, 0, 0, 0.19); */
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.navbar-light .navbar-nav .nav-link.disabled {
+    color: rgb(124, 124, 124);
+}
+/* ---------- Navbar ------------ */
+
+
+h1, h3 {
+    color: white;
+    font-weight: bold;
+}
+h2 {
+    color: black;
+    font-weight: bold;
+}
+
+/* ---------- Footer --------- */
+footer {
+    background-color: #E6E6E6;
+    padding-top: 10px;
+    margin-top: 10px;
+    box-shadow: 0 6px 20px 0;
+}
+/*  ---------- Footer --------- */

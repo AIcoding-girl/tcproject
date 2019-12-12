@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tennis Club</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="css/articlesStyle.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <nav class="navbar fixed-top navbar-expand-md navbar-light scrolling-navbar">
+                <div class="collapse navbar-collapse" id="collapse_target">
+                    <a class="navbar-brand pl-5">
+                        <!-- padding-left: 5($spacer) bootstrap -->
+                        <img src="img/cat-solid.svg" width="30" height="30" title="cat">
+                        <img src="img/table-tennis-solid.svg" width="30" height="30" title="tennis"></a>
+                    <!-- <span class="navbar-text">Join us!</span> -->
+
+                    <ul class="navbar-nav flex-row ml-md-auto d-flex pr-5">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Articles</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="chat.html">Chat</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="register.html">Register</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="navbar-toggler teal lighten-1" type="button" data-toggle="collapse"
+                    data-target="#collapse_target" aria-controls="collapse_target" aria-expanded="false"
+                    aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="gallery-wrapper row">
+            <div class="col-md-1 pt-3 pb-3"></div>
+
+            <div class="col-md-4 col-sm-12 bg-light ">
+                <div class="gallery row justify-content-center">
+                    <div class="col gallery-active">
+                        <a data-fancybox="gallery" id="img-active" href="img/gallery1.jpg"><img src="img/gallery1.jpg"
+                                alt="ground with text"></a>
+                    </div>
+                </div>
+
+                <div class="gallery row justify-content-center">
+                    <div class="col">
+                        <a data-fancybox="gallery" class="small-img" href="img/gallery1.jpg"><img src="img/gallery1.jpg"
+                                alt="ground with text"></a>
+                    </div>
+
+                    <div class="col">
+                        <a data-fancybox="gallery" class="small-img" href="img/gallery2.jpg"><img src="img/gallery2.jpg"
+                                alt="sportman"></a>
+                    </div>
+
+                    <div class="col">
+                        <a data-fancybox="gallery" class="small-img" href="img/gallery3.jpg"><img src="img/gallery3.jpg"
+                                alt="tennis player"></a>
+                    </div>
+
+                </div>
+
+                <div class="gallery row justify-content-center">
+                    <div class="col">
+                        <a data-fancybox="gallery" class="small-img" href="img/gallery4.jpg"><img src="img/gallery4.jpg"
+                                alt="restaurant table"></a>
+                    </div>
+
+                    <div class="col">
+                        <a data-fancybox="gallery" class="small-img" href="img/gallery5.jpg"><img
+                                src="img/gallery5.jpg"></a>
+                    </div>
+
+                    <div class="col">
+                        <a data-fancybox="gallery" class="small-img" href="img/gallery6.jpg"><img
+                                src="img/gallery6.jpg"></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-6 pt-3 pb-3 pl-4 bg-light">
+
+                <div class="tabs-header row">
+                    <div class="col-head">
+                        <a href="" class="active" data-tab='tab-1'>Health benefits</a>
+                    </div>
+
+                    <div class="col-head">
+                        <a href="" data-tab='tab-2'>Social wellness</a>
+                    </div>
+
+                    <div class="col-head">
+                        <a href="" data-tab='tab-3'>Corporate events</a>
+                    </div>
+                </div>
+
+                <div class="tabs-body row">
+                    <div class="tab active col pb-3" id="tab-1">
+                        <p class="mt-3">
+                            Tennis is a very popular sport in Europe and is played by people of all ages. Tennis can
+                            be
+                            played
+                            as a sport or as a recreational activity with friends and family. Either way, playing
+                            tennis
+                            is
+                            a
+                            good sport to maintain your health, fitness, strength and agility. It has been
+                            calculated
+                            that
+                            an
+                            hour-long game of singles tennis burns around 600 calories for men and 420 calories for
+                            women.
+                        </p>
+
+                        <p>
+                            In addition to the fitness and physical health benefits, tennis also provides numerous
+                            social
+                            and
+                            mental health benefits as well:
+                        </p>
+
+                        <ul>
+                            <li>a non-impact sport;</li>
+                            <li>a great way to meet people and spend time with friends;</li>
+                            <li>suitable for all ages and skill levels. You can find someone of
+                                a
+                                similar
+                                ability to play with;</li>
+                            <li>helpful to reduce stress;</li>
+                            <li>not dependent on youth or strength – you can play for a lifetime or start the game
+                                at
+                                any
+                                age;
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab col" id="tab-2">
+                        <p class="mt-3">
+                            Social wellness involves engaging in and enjoying positive interactions with other
+                            people in
+                            work and leisure and building and maintaining meaningful friendships, intimate
+                            relationships
+                            and professional connections.
+                        </p>
+
+                        <p>
+                            Here are a few suggested activities that will support you in cultivating social
+                            wellness—use
+                            these as a starting point to inspire your own ideas! We offer the sport and social
+                            experience!
+                        </p>
+
+                        <ul>
+                            <li>Go to the gym, the park, or a yoga, fitness or dance class in our centre</li>
+                            <li>Plan a regular lunch date with your family</li>
+                            <li>Organize a spa day with a group of friends or colleagues</li>
+                        </ul>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque nihil deleniti tenetur
+                            architecto eaque, voluptate fuga tempora commodi, dicta harum sapiente fugit similique sequi
+                            officiis, eveniet ipsum possimus nisi nemo?</p>
+                    </div>
+
+                    <div class="tab col" id="tab-3">
+                        <p class="mt-3">
+                            Whether you’re planning a team offsite day, a meeting (large or small), or a festive
+                            celebration, our specialist events team will work with you to ensure a seamless affair
+                            from
+                            start to finish. Our contemporary facilities combine flexible event space with the
+                            latest
+                            technology and excellent transport links to cater for all of your business requirements.
+                        </p>
+
+                        <p>
+                            We have extensive food and beverage options available, and can cater for banquets,
+                            cocktail
+                            parties, corporate lunches and more casual events such as family days.
+                        </p>
+
+                        <p>
+                            Events and activities can be arranged at relatively short notice, so contact our
+                            experienced
+                            events team directly for more ideas, bespoke packages and venue hire information.
+                        </p>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque nihil deleniti tenetur
+                            architecto eaque, voluptate fuga tempora commodi, dicta harum sapiente fugit similique sequi
+                            officiis, eveniet ipsum possimus nisi nemo?</p>
+                    </div>
+
+                </div>
+
+                <div class="after-text row pl-3">
+                    <h5><u>Practice with a purpose, play with a passion!</u></h5>
+                    <p class="mt-3">
+                        Tennis is played in organised competitions as well as social games. In order to play tennis
+                        you
+                        need
+                        a racquet, a ball, a court with a net, and an opponent.
+
+                        Club courts and public courts are available for hire in most suburbs and towns. If you can’t
+                        find
+                        someone to play against, we host organised social play, competitions and tournaments
+                        that will provide fellow tennis players for you to play with and against.
+                    </p>
+                </div>
+
+
+            </div>
+
+            <div class="col-md-1 pt-5 pb-3"></div>
+
+
+
+            <!-- Footer -->
+            <footer class="fixed-bottom">
+                <!-- alternative: sticky-bottom!!!! -->
+                <div class="row justify-content-center">
+
+                    <a href="#"><img src="img/facebook.svg" width="30" height="30" alt="facebook icon"></a>
+                    <a href="#"><img src="img/instagram.svg" width="30" height="30" alt="instagram icon"></a>
+                    <a href="#"><img src="img/linkedin.svg" width="30" height="30" alt="linkedin icon"></a>
+                    <a href="#"><img src="img/twitter.svg" width="30" height="30" alt="twitter icon"></a>
+                    <a href="#"><img src="img/youtube.svg" width="30" height="30" alt="youtube icon"></a>
+                </div>
+
+                <div class="row justify-content-center">
+                    &#169 by Tennis Club, 2019. All rights reserved
+                </div>
+            </footer>
+            <!-- Footer -->
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="js/articlesScript.js"></script>
+</body>
+
+</html>
